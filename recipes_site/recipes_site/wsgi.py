@@ -18,12 +18,12 @@ import os
 import sys
 
 # add your project directory to the sys.path
-project_home = '/home/IvanHabarov17/mysite'
+project_home = '/home/IvanHabarov17/new/django-site/recipes_site'
 if project_home not in sys.path:
     sys.path.insert(0, project_home)
 
 # set environment variable to tell django where your settings.py is
-os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'recipes_site.settings'
 
 
 # serve django via WSGI

@@ -30,6 +30,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '192.168.1.10',
     '127.0.0.1',
+    'ivanhabarov17.pythonanywhere.com',
 ]
 
 
